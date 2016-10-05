@@ -8,3 +8,4 @@ x64/
 *.sln
 *.vcxproj
 *.filters
+*.opensdf
