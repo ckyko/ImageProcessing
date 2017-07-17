@@ -1,0 +1,81 @@
+﻿Build started 2016-12-20 星期二 16:28.
+     1>Project "D:\OneDrive\csc59867\final\qip2_GPU\qip.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing Blur.h...
+         Moc'ing Clip.h...
+         Moc'ing Contrast.h...
+         Moc'ing Convolve.h...
+         Moc'ing Correlation.h...
+         Moc'ing Dummy.h...
+         Moc'ing ErrDiffusion.h...
+         Moc'ing Gamma.h...
+         Moc'ing HistoMatch.h...
+         Moc'ing HistoStretch.h...
+         Moc'ing MainWindow.h...
+         Moc'ing Median.h...
+         Moc'ing Quantize.h...
+         Moc'ing Sharpen.h...
+         Moc'ing Threshold.h...
+         Moc'ing qcustomplot.h...
+       ClCompile:
+         D:\Microsoft Visual Studio 2013\VC\bin\x86_amd64\CL.exe /c /I. /IIP\win\header /I..\..\..\..\qt\5.5\msvc2013_64\include /I..\..\..\..\qt\5.5\msvc2013_64\include\QtPrintSupport /I..\..\..\..\qt\5.5\msvc2013_64\include\QtOpenGL /I..\..\..\..\qt\5.5\msvc2013_64\include\QtWidgets /I..\..\..\..\qt\5.5\msvc2013_64\include\QtGui /I..\..\..\..\qt\5.5\msvc2013_64\include\QtANGLE /I..\..\..\..\qt\5.5\msvc2013_64\include\QtCore /Idebug\.moc /I"..\..\..\..\qt\5.5\msvc2013_64\mkspecs\win32-msvc2013" /Zi /nologo /W3 /WX- /MP /Od /D _WINDOWS /D UNICODE /D WIN32 /D WIN64 /D QT_PRINTSUPPORT_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt -w34100 -w34189 -w44996 Debug\.moc\moc_Blur.cpp Debug\.moc\moc_Clip.cpp Debug\.moc\moc_Contrast.cpp Debug\.moc\moc_Convolve.cpp Debug\.moc\moc_Correlation.cpp Debug\.moc\moc_Dummy.cpp Debug\.moc\moc_ErrDiffusion.cpp Debug\.moc\moc_Gamma.cpp Debug\.moc\moc_HistoMatch.cpp Debug\.moc\moc_HistoStretch.cpp Debug\.moc\moc_MainWindow.cpp Debug\.moc\moc_Median.cpp Debug\.moc\moc_Quantize.cpp Debug\.moc\moc_Sharpen.cpp Debug\.moc\moc_Threshold.cpp Debug\.moc\moc_qcustomplot.cpp GLWidget.cpp
+         moc_Blur.cpp
+         moc_Clip.cpp
+         moc_Contrast.cpp
+         moc_Convolve.cpp
+         moc_Correlation.cpp
+         moc_Dummy.cpp
+         moc_ErrDiffusion.cpp
+         moc_Gamma.cpp
+         moc_HistoMatch.cpp
+         moc_HistoStretch.cpp
+         moc_MainWindow.cpp
+         moc_Median.cpp
+         moc_Quantize.cpp
+         moc_Sharpen.cpp
+         moc_Threshold.cpp
+         moc_qcustomplot.cpp
+         GLWidget.cpp
+       Link:
+         D:\Microsoft Visual Studio 2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\qip.exe" /NOLOGO /LIBPATH:D:\Qt\5.5\msvc2013_64\lib /LIBPATH:D:/qt/5.5/msvc2013_64/lib /LIBPATH:D:\Qt\5.5\msvc2013_64\lib /LIBPATH:.\IP\win\lib D:\Qt\5.5\msvc2013_64\lib\qtmaind.lib shell32.lib D:/qt/5.5/msvc2013_64/lib\Qt5Cored.lib .\IP\win\lib\IP_d.lib opengl32.lib D:\Qt\5.5\msvc2013_64\lib\Qt5PrintSupportd.lib D:\Qt\5.5\msvc2013_64\lib\Qt5OpenGLd.lib D:\Qt\5.5\msvc2013_64\lib\Qt5Widgetsd.lib D:\Qt\5.5\msvc2013_64\lib\Qt5Guid.lib D:\Qt\5.5\msvc2013_64\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"debug\qip.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" x64\Debug\Blur.obj
+         x64\Debug\Clip.obj
+         x64\Debug\Contrast.obj
+         x64\Debug\Convolve.obj
+         x64\Debug\Correlation.obj
+         x64\Debug\moc_Blur.obj
+         x64\Debug\moc_Clip.obj
+         x64\Debug\moc_Contrast.obj
+         x64\Debug\moc_Convolve.obj
+         x64\Debug\moc_Correlation.obj
+         x64\Debug\moc_Dummy.obj
+         x64\Debug\moc_ErrDiffusion.obj
+         x64\Debug\moc_Gamma.obj
+         x64\Debug\moc_HistoMatch.obj
+         x64\Debug\moc_HistoStretch.obj
+         x64\Debug\moc_MainWindow.obj
+         x64\Debug\moc_Median.obj
+         x64\Debug\moc_qcustomplot.obj
+         x64\Debug\moc_Quantize.obj
+         x64\Debug\moc_Sharpen.obj
+         x64\Debug\moc_Threshold.obj
+         x64\Debug\Dummy.obj
+         x64\Debug\ErrDiffusion.obj
+         x64\Debug\qrc_qip.obj
+         x64\Debug\GLWidget.obj
+         x64\Debug\Gamma.obj
+         x64\Debug\HistoMatch.obj
+         x64\Debug\HistoStretch.obj
+         x64\Debug\ImageFilter.obj
+         x64\Debug\MainWindow.obj
+         x64\Debug\Median.obj
+         x64\Debug\Quantize.obj
+         x64\Debug\Sharpen.obj
+         x64\Debug\Threshold.obj
+         x64\Debug\main.obj
+         x64\Debug\qcustomplot.obj
+         qip.vcxproj -> D:\OneDrive\csc59867\final\qip2_GPU\debug\qip.exe
+     1>Done Building Project "D:\OneDrive\csc59867\final\qip2_GPU\qip.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:37.83
